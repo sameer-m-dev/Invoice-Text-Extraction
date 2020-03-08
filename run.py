@@ -5,7 +5,7 @@ from google.cloud import vision
 import io
 import argparse
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="/content/fyp-bot-fkvpth-63ef51dcf510.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="fyp-bot-fkvpth-63ef51dcf510.json"
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--modelDir", help="Path to model files", default="models/AIDL_NER_DO-0.30_EP-20_90_PERC_DATA")
