@@ -24,3 +24,18 @@ File that has all the dependencies needed in order to run this program
          Scripts\activate
          pip install -r requirements.txt
          python run.py --modelDir models/AIDL_NER_DO-0.30_EP-20_80_PERC_DATA --fileType img --file sample.jpg
+         #### Output ####
+         {
+           "Date": "29-11-2019",
+           "Invoice number": "201911291623",
+           "Items": [
+             "YOU ARE THE GREATE\nST MUG-FATHER",
+             "PRINTED PAPER MATT\nER\nCRAFT PAPER BAG- H"
+           ],
+           "Store address": "PHOENIX MARKETCITY\n",
+           "Store address-2": "S-23,IIND FLOOR, 142, VELACHERY MAIN ROAD,\nCHENNAI-600042",
+           "Store name": "ARCHIES",
+           "Store name-1": "ARCHIES",
+           "Time": "16:22",
+           "Total bill amount": 434.0
+         }
