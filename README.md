@@ -24,6 +24,7 @@ File that has all the dependencies needed in order to run this program
          Scripts\activate
          pip install -r requirements.txt
          python run.py --modelDir models/AIDL_NER_DO-0.30_EP-20_80_PERC_DATA --fileType img --file sample.jpg
+         
          #### Output ####
          {
            "Date": "29-11-2019",
