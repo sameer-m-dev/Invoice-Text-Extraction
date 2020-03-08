@@ -4,8 +4,8 @@ File and Folder Information
 # run.py 
 Python script that give back all the recognized information from an image or invoice.
          
-    Syntax: python run.py --modelDir "model/FOLDER" --fileType "img (for image file) or txt(for text file)" --file "path of img or text file"
-    example: python run.py --modelDir model/AIDL_NER_DO-0.30_EP-20_80_PERC_DATA --fileType img --file sample.img
+    Syntax: python run.py --modelDir "models/FOLDER" --fileType "img (for image file) or txt(for text file)" --file "path of img or text file"
+    example: python run.py --modelDir models/AIDL_NER_DO-0.30_EP-20_80_PERC_DATA --fileType img --file sample.jpg
          
 # model
 Folder that contains all the Spacy Models
