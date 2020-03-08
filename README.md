@@ -6,6 +6,7 @@ Python script that give back all the recognized information from an image or inv
          
     Syntax: python run.py --modelDir "models/FOLDER" --fileType "img (for image file) or txt(for text file)" --file "path of img or text file"
     example: python run.py --modelDir models/AIDL_NER_DO-0.30_EP-20_80_PERC_DATA --fileType img --file sample.jpg
+             python run.py --modelDir models/AIDL_NER_DO-0.30_EP-20_80_PERC_DATA --fileType txt --file sample.txt
          
 # model
 Folder that contains all the Spacy Models
