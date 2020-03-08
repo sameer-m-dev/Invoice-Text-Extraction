@@ -16,3 +16,10 @@ Folder that contains all the Spacy Models
      
 # requirements.txt
 File that has all the dependencies needed in order to run this program
+
+# Installation
+         virtualenv --python "path to Python3 64bit" aidl2020-team-ace
+         cd aidl2020-team-ace
+         Scripts\activate
+         pip install -r requirements.txt
+         python run.py --modelDir models/AIDL_NER_DO-0.30_EP-20_80_PERC_DATA --fileType img --file sample.jpg
