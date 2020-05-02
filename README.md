@@ -1,4 +1,4 @@
-# AIDL-2020-TeamAce
+# Invoice-Text-Extraction
 File and Folder Information
 
 # run.py 
